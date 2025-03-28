@@ -27,7 +27,7 @@ The goal of this activity is to interactively develop a script to download and s
 + Instruct participants to open the `rrp-workshop-exercises` repository in VS code.
 + Create a file `scripts/download-fastq.sh` using VS code.
 + Populate the top of the script with some of our most used practices and describe their purpose:
-  + Add a shebang (`#/bin/bash`)
+  + Add a shebang (`#!/bin/bash`)
   + `set -euo pipefail`
   + `cd "$(dirname "${BASH_SOURCE[0]}")"`
 + Discuss at a high-level what steps we wish to perform:
