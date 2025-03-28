@@ -10,4 +10,5 @@ header_home:
   HOME.md
 header_pages:
   - reproducibility_resources.md
+  - setup_instructions/setup_overview.md
   - workshop-schedule.md
