@@ -3,21 +3,11 @@ title: Pre-workshop setup
 nav_title: Setup
 ---
 
-This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, namely setting up accounts and installing software that we will be using.
+This will be a hands-on workshop, so to maximize our time, we would like you to arrive having completed a number of setup tasks, namely setting up accounts, installing software that we will be using, and forking and cloning the workshop repository.
 
-We will _not_ have time to do all of the setup on the day of the workshop and accomplish all of our goals for the workshop!
+We will _not_ have time to do all of the setup on the days of the workshop and accomplish all of our goals for the workshop!
 Please be aware this setup process may take 1-2 hours to complete if you are using Windows, and somewhat less on a Mac.
-
-If you need any assistance with the installation, do not hesitate to reach out to the Data Lab team by email, or, even better, in the [Cancer Data Science Slack](http://ccdatalab.org/slack)!
-We will add you to a training-specific channel after you join the Slack community.
-
-{% if site.include_openrrp %}
-**Table of contents**
-
-* TOC goes here
-{:toc}
-{% endif %}
-
+You may be able to skip some of the steps below if you already have R, RStudio, and Git installed.
 
 ## Workshop software requirements
 
@@ -35,6 +25,13 @@ Please follow the instructions below for your given operating system:
 As part of this setup, you will also need to create a [GitHub.com](https://github.com) account if you do not already have one.
 You will also need to [configure the GitKraken application](github_gitkraken_setup_instructions.md) to interact with GitHub.
 
-{% if site.include_openrrp %}
-    {% include_relative openrrp-setup.md %}
-{% endif %}
+## Fork and clone the workshop repository
+
+You will need to fork the workshop repository (<https://github.com/AlexsLemonade/rrp-workshop-exercises/>) to your own GitHub account and clone it to your local machine.
+
+Navigate to <https://github.com/AlexsLemonade/rrp-workshop-exercises/> and follow the GitHub instructions for creating a fork: <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository>
+
+Once you have forked the repository, you will need to clone it to your local machine.
+You can do this using the GitKraken application or the command line.
+
+You can follow the instructions for cloning the repository using GitKraken: <https://www.gitkraken.com/learn/git/git-clone#how-to-git-clone-over-https-using-the-command-line> or the command line: <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#cloning-your-forked-repository>.
