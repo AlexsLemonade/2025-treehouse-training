@@ -21,14 +21,14 @@ mkdir -p $FASTQ_DEST
 # If the file doesn't exist, then we need to download it
 if [ ! -e "$FASTQ_DEST/$FASTQ_R1" ]; then
 
-	# Print an indicator:
-	echo "Obtaining $FASTQ_R1"
+    # Print an indicator:
+    echo "Obtaining $FASTQ_R1"
 
-	# Curl the file (using one of several approaches)
-	curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet file name
+    # Curl the file (using one of several approaches)
+    curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet file name
 
-	# Move the file to its destination directory
-	mv $FASTQ_R1 $FASTQ_DEST
+    # Move the file to its destination directory
+    mv $FASTQ_R1 $FASTQ_DEST
 
 fi
 
@@ -43,14 +43,14 @@ gunzip -c $FASTQ_DEST/$FASTQ_R1 | wc -l
 # If the file doesn't exist, then we need to download it
 if [ ! -e "$FASTQ_DEST/$FASTQ_R2" ]; then
 
-	# Print an indicator:
-	echo "Obtaining $FASTQ_R2"
+    # Print an indicator:
+    echo "Obtaining $FASTQ_R2"
 
-	# Curl the file (using one of several approaches)
-	curl -O $FASTQ_URL/$FASTQ_R2 # this approach preserves the original internet file name
+    # Curl the file (using one of several approaches)
+    curl -O $FASTQ_URL/$FASTQ_R2 # this approach preserves the original internet file name
 
-	# Move the file to its destination directory
-	mv $FASTQ_R2 $FASTQ_DEST
+    # Move the file to its destination directory
+    mv $FASTQ_R2 $FASTQ_DEST
 
 fi
 
