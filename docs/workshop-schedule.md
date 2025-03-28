@@ -11,7 +11,8 @@ nav_title: Schedule
 |  | Why does reproducibility matter? | Jaclyn |
 | 9:45 - 10:30 | Project organization | Josh |
 | 10:30 - 10:45 | _Break_ | |
-| 10:45 - 11:15 | Shell Scripting | Jaclyn |
+| 10:45 - 11:15 | Shell scripting | Jaclyn |
+|	| Slides: [Shell scripting (PDF)](slides/03_shell-scripting.pdf) | |
 | 11:15 - 12:15 | Git, Part 1 | Jaclyn |
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Organizing code in scripts and notebooks | Josh |
