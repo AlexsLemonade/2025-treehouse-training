@@ -13,17 +13,17 @@ FASTQ_R2="SRR11518889_2.fastq.gz"
 FASTQ_URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
 
 # Define and create destination directory for FASTQ files to live in
-FASTQ_DEST="../data/raw/fastq/$STUDY_ID/"
-mkdir -p $FASTQ_DEST 
+FASTQ_DEST="../data/raw/fastq/${STUDY_ID}/"
+mkdir -p $FASTQ_DEST
 
 ##### Process the R1 file #####
 
 # If the file doesn't exist, then we need to download it
 if [ ! -e "$FASTQ_DEST/$FASTQ_R1" ]; then
-	
+
 	# Print an indicator:
 	echo "Obtaining $FASTQ_R1"
-	
+
 	# Curl the file (using one of several approaches)
 	curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet file name
 
@@ -56,15 +56,15 @@ fi
 
 # Explore: how many lines are in the file?
 gunzip -c $FASTQ_DEST/$FASTQ_R2 | wc -l
-  
+
 
 
 
 
 ############### Downloading files with curl ###################
-##### A few alternative approaches for downloading with curl are shown below, with R1 for example. 
+##### A few alternative approaches for downloading with curl are shown below, with R1 for example.
 ##### Depending on how the workshop is moving along, multiple versions can be optionally introduced.
-##### The versions shown below will place the downloaded file into the destination directory 
+##### The versions shown below will place the downloaded file into the destination directory
 #####    as part of the same step without needing a separate line to mv.
 ##### For any version, you can always add `-s` to keep it quiet!
 
