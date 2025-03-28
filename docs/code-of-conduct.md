@@ -10,7 +10,7 @@ All participants in our events and communications are expected to show respect a
 To make clear what is expected, everyone participating in Childhood Cancer Data Lab (Data Lab) training activities is required to conform to the Code of Conduct.
 This Code of Conduct applies to all spaces managed by the Data Lab including, but not limited to, training workshops, videoconferences, email lists, and online forums such as GitHub, Slack and Twitter.
 
-If you feel harassed or treated inappropriately at any time, please contact the Director of the Data Lab at [ccdl@alexslemonade.org](mailto:ccdl@alexslemonade.org).
+If you feel harassed or treated inappropriately at any time, please contact the Scientific Community Manager of the Data Lab at [jen.omalley@ccdatalab.org](mailto:jen.omalley@ccdatalab.org).
 
 
 ## Code of Conduct
