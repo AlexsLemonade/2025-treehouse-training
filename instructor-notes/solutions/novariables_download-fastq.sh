@@ -15,14 +15,13 @@ echo "Obtaining SRR11518889_1.fastq.gz"
 # Curl the file (using one of several approaches, scroll down for more)
 curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_1.fastq.gz
 
-
-# Explore: how many lines are in the file?
-echo "The number of lines in SRR11518889_1.fastq.gz is:"
-gunzip -c SRR11518889_1.fastq.gz | wc -l
-  
 # Move the file to its destination directory
 mv SRR11518889_1.fastq.gz ../data/raw/fastq/SRP255885/
 
+# Explore: how many lines are in the file?
+echo "The number of lines in SRR11518889_1.fastq.gz is:"
+gunzip -c ../data/raw/fastq/SRP255885/SRR11518889_1.fastq.gz | wc -l
+  
 
 ##### Process the R2 file #####
 
@@ -32,12 +31,13 @@ echo "Obtaining SRR11518889_2.fastq.gz"
 # Curl the file (using one of several approaches)
 curl -O ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889/SRR11518889_2.fastq.gz
 
-# Explore: how many lines are in the file?
-echo "The number of lines in SRR11518889_2.fastq.gz is:"
-gunzip -c SRR11518889_2.fastq.gz | wc -l
-  
 # Move the file to its destination directory
 mv SRR11518889_2.fastq.gz ../data/raw/fastq/SRP255885/
+
+# Explore: how many lines are in the file?
+echo "The number of lines in SRR11518889_2.fastq.gz is:"
+gunzip -c ../data/raw/fastq/SRP255885/SRR11518889_2.fastq.gz | wc -l
+  
 
 
 

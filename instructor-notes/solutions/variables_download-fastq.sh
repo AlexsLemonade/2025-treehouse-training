@@ -24,13 +24,13 @@ echo "Obtaining $FASTQ_R1"
 # Curl the file (using one of several approaches)
 curl -O $FASTQ_URL/$FASTQ_R1 # this approach preserves the original internet file name
 
-# Explore: how many lines are in the file?
-echo "The number of lines in $FASTQ_R1 is:"
-gunzip -c $FASTQ_R1 | wc -l
-
-  
 # Move the file to its destination directory
 mv $FASTQ_R1 $FASTQ_DEST
+
+# Explore: how many lines are in the file?
+echo "The number of lines in $FASTQ_R1 is:"
+gunzip -c $FASTQ_DEST/$FASTQ_R1 | wc -l
+
 
 
 ##### Process the R2 file #####
@@ -41,11 +41,13 @@ echo "Obtaining $FASTQ_R2"
 # Curl the file (using one of several approaches)
 curl -O $FASTQ_URL/$FASTQ_R2 # this approach preserves the original internet file name
 
-# Explore: how many lines are in the file?
-gunzip -c $FASTQ_R2 | wc -l
-  
 # Move the file to its destination directory
 mv $FASTQ_R2 $FASTQ_DEST
+
+# Explore: how many lines are in the file?
+gunzip -c $FASTQ_DEST/$FASTQ_R2 | wc -l
+  
+
 
 
 
