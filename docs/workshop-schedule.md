@@ -23,6 +23,7 @@ nav_title: Schedule
 | | Slides: [Managing packages and environments (PDF)](slides/06_managing-packages-environments.pdf) | |
 | 2:30 - 2:45 | _Break_ | |
 | 2:45 - 3:30 | Git, Part 2 | Josh |
+| | Slides: [Git, Part 2 (PDF)](slides/07_git-part-2.pdf) | |
 | 3:30 - 4:15 | Working with multiple branches | Josh |
 | 5:00 | Adjourn | |
 
