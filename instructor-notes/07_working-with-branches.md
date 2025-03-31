@@ -43,7 +43,7 @@ Before the live demo, slides will introduce the follow concepts/commands:
 
 * Now return to GitKraken to create a separate branch for adding the conda environment.
 * Create a branch off of `main` named `add-fastp`.
-* Make a commit to add the changes to the `download-fastq.sh` script to use `fastp`.
+* Make a commit to add the changes to the `download-fastq.sh` script to use `fastp` and avoid redownloading files.
 * "Realize" that the `environment.yml` addition should really be in this branch, and not in `add-renv`.
   * Cherry pick the `environment.yml` commit from `add-renv` to `add-conda`.
 * Push changes in `add-fastp` to remote
