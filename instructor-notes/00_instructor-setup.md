@@ -8,6 +8,7 @@ This is only a matter of personal preference; it is _not required_.
   * [ ] `git` (via command line tools, if working on a Mac)
   * [ ] GitKraken (you should also be signed into your account)
   * [ ] [KeyCastr](https://github.com/keycastr/keycastr) for keystroke visualization.
+  * [ ] miniconda with bioconda channel set up
   _Ensure this is turned on while teaching live demos!_
 * [ ] Install the following R packages:
   * `here`, `tidyverse`, `rmarkdown`, `renv`, and `optparse`
