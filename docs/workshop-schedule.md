@@ -11,6 +11,7 @@ nav_title: Schedule
 | | Slides: [Workshop introduction (PDF)](slides/00_workshop-introduction.pdf) | |
 |  | Why does reproducibility matter? | Jaclyn |
 | 9:45 - 10:30 | Project organization | Josh |
+| | Slides: [Project organization (PDF)](slides/02_project-organization.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
 | 10:45 - 11:15 | Shell scripting | Jaclyn |
 |	| Slides: [Shell scripting (PDF)](slides/03_shell-scripting.pdf) | |
