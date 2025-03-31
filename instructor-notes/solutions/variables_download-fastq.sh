@@ -13,7 +13,7 @@ FASTQ_R2="SRR11518889_2.fastq.gz"
 FASTQ_URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
 
 # Define and create destination directory for FASTQ files to live in
-FASTQ_DEST="../data/raw/fastq/${STUDY_ID}/"
+FASTQ_DEST="../data/raw/fastq/${STUDY_ID}"
 mkdir -p $FASTQ_DEST
 
 ##### Process the R1 file #####
