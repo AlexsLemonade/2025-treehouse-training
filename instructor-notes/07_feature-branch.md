@@ -45,7 +45,7 @@ Before the live demo, slides will introduce the follow concepts/commands:
 * Create a branch off of `main` named `add-fastp`.
 * Make a commit to add the changes to the `download-fastq.sh` script to use `fastp`.
 * "Realize" that the `environment.yml` addition should really be in this branch, and not in `add-renv`.
-  * Cherry pick the `environment.yml` comit from `add-renv` to `add-conda`.
+  * Cherry pick the `environment.yml` commit from `add-renv` to `add-conda`.
 * Push changes in `add-fastp` to remote
 * Check out the `add-renv` branch, revert the commit with `environment.yml` and push the changes to the remote.
 
