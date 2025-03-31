@@ -45,6 +45,7 @@ curl -O $FASTQ_URL/$FASTQ_R2 # this approach preserves the original internet fil
 mv $FASTQ_R2 $FASTQ_DEST
 
 # Explore: how many lines are in the file?
+echo "The number of lines in $FASTQ_R2 is:"
 gunzip -c $FASTQ_DEST/$FASTQ_R2 | wc -l
 
 

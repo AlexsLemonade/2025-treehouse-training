@@ -16,12 +16,14 @@ nav_title: Schedule
 | 10:45 - 11:15 | Shell scripting | Jaclyn |
 |	| Slides: [Shell scripting (PDF)](slides/03_shell-scripting.pdf) | |
 | 11:15 - 12:15 | Git, Part 1 | Jaclyn |
+| | Slides: [Git, Part 1 (PDF)](slides/04_git-part-1.pdf) | |
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Organizing code in scripts and notebooks | Josh |
 | 1:45 - 2:30 | Managing packages and environments | Josh |
 | | Slides: [Managing packages and environments (PDF)](slides/06_managing-packages-environments.pdf) | |
 | 2:30 - 2:45 | _Break_ | |
 | 2:45 - 3:30 | Git, Part 2 | Josh |
+| | Slides: [Git, Part 2 (PDF)](slides/07_git-part-2.pdf) | |
 | 3:30 - 4:15 | Working with multiple branches | Josh |
 | 5:00 | Adjourn | |
 
