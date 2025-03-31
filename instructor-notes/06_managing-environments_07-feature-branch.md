@@ -16,15 +16,62 @@ At the end of this activity, workshop attendees should be able to:
 
 ## Activity
 
-### Part 1: `renv`
+### Part 1: `renv` and `conda`
 
-* Begin with the "Managing packages and environments" slides to introduce `renv`.
+Begin with the "Managing packages and environments" slides to introduce `renv` and `conda`.
+
+#### renv setup demonstration
+
 * Interactively demonstrate to trainees how to set up renv for their project using `renv::init()`.
 * Show the created files, including `renv.lock`, updates to `.Rprofile`, and contents of the `renv` directory.
 * Possibly note that `renv` adds its own `.gitignore` file!
 
+#### conda setup demonstration
+
+* Create a new environment named `alsf-rrp` with `fastp` installed using `conda create -n alsf-rrp fastp`.
+* Show how to activate the environment with `conda activate alsf-rrp`.
+* Save the conda environment with `conda env export > environment.yml`.
+* (Optional) Add FastQC to the environment with `conda install fastqc` and export again.
+* Show how to deactivate the environment with `conda deactivate`.
+
+### Add fastp to the download-fastq.sh script
+
+* Add trimmed and reports directories to the `download-fastq.sh` script and update the `mkdir -p` command to create these directories.
+
+```bash
+TRIMMED_DIR="../data/trimmed/${STUDY_ID}"
+REPORTS_DIR="../reports/fastp"
+
+mkdir -p $FASTQ_DEST $TRIMMED_DIR $REPORTS_DIR
+```
+
+* Modify the file download blocks to only download the fastq files if they are not already present.
+**Use the `-f` flag to check for the existence of each file.**
+
+```bash
+if [ ! -f "$FASTQ_DEST/$FASTQ_R1" ]; then
+    ...
+fi
+```
+
+* Add the fastp command to the script:
+*
+```bash
+## Trim the files with fastp
+fastp \
+  --in1 $FASTQ_DEST/$FASTQ_R1 \
+  --in2 $FASTQ_DEST/$FASTQ_R2 \
+  --out1 $TRIMMED_DIR/$FASTQ_R1 \
+  --out2 $TRIMMED_DIR/$FASTQ_R2 \
+  --html "$REPORTS_DIR/${STUDY_ID}_report.html" \
+  --json "$REPORTS_DIR/${STUDY_ID}_report.json"
+```
+
+* Run the script to ensure that it works (and doesn't re-download the files).
+
+
 * Trainees should now all have a `renv.lock` file and other renv-related changes in their _main branch_.
-* Importantly, they should _not_ stage/commit/push these files, because we are going to instruct them to include it in a _feature branch_ instead.
+**Do not stage/commit/push any of these changes yet!**
 
 ### Part 2: Branches and merging
 
