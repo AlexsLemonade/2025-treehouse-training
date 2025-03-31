@@ -19,6 +19,7 @@ nav_title: Schedule
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Organizing code in scripts and notebooks | Josh |
 | 1:45 - 2:30 | Managing packages and environments | Josh |
+| | Slides: [Managing packages and environments (PDF)](slides/06_managing-packages-environments.pdf) | |
 | 2:30 - 2:45 | _Break_ | |
 | 2:45 - 3:30 | Git, Part 2 | Josh |
 | 3:30 - 4:15 | Working with multiple branches | Josh |
