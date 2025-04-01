@@ -34,6 +34,7 @@ nav_title: Schedule
 | 9:00 - 9:30 | Pull request basics | Jaclyn |
 | 9:30 - 10:00 | Resolving merge conflicts | Josh |
 | 10:00 - 10:30 | Git workflows | Jaclyn |
+| | Slides: [Git workflows (PDF)](slides/11_git-workflows.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
 | 10:45 - 11:30 | Planning and tracking work with GitHub | Jaclyn |
 | | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
