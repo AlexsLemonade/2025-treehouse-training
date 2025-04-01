@@ -37,6 +37,7 @@ nav_title: Schedule
 | | Slides: [Git workflows (PDF)](slides/11_git-workflows.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
 | 10:45 - 11:30 | Planning and tracking work with GitHub | Jaclyn |
+| | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
 | 11:30 - 12:15 | Analytical code review | Jaclyn |
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Leaving and responding to review | Josh |
