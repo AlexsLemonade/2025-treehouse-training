@@ -1,7 +1,7 @@
 # Instructor Notes: Pull Requests Basics
 
 This document provides instructions for teaching how to create a pull request and merge it into the main branch.
-This is a follow-up to the previous instructor notes on working with branches, and it assumes that the trainees have already created and pushed their feature branches.
+This is a follow-up to the previous instructor notes on working with branches, and it assumes that the participants have already created and pushed their feature branches.
 
 ## Learning goals
 
@@ -39,14 +39,14 @@ In the most recent session, participants will have created two branches:
     This sets us up to have a merge conflict with the `add-fastp` branch in the next session.
 * Commit the change to the `add-renv` branch.
 * Push the changes to the remote `add-renv` branch.
-* Instruct trainees to navigate to their remote repositories in the browser to see their new commit pushed.
+* Instruct participants to navigate to their remote repositories in the browser to see their new commit pushed.
   * Point out the banner that says changes were recently pushed to the `add-renv` branch.
 
 ### Creating a pull request
 
-* Instruct trainees to create a pull request from the `add-renv` branch to the `main` branch.
+* Instruct participants to create a pull request from the `add-renv` branch to the `main` branch.
 * Scroll down to show the files changed.
-* In the pull request description, ask trainees to include a brief summary of the changes made in the `add-renv` branch.
+* In the pull request description, ask participants to include a brief summary of the changes made in the `add-renv` branch.
     * Make sure to reference the issue number for the `renv` addition.
 * Point out that merging is blocked in the repository the instructor is using because the `main` branch is protected.
 * Navigate to the repository settings and show how branch protection rules are set up.
@@ -54,5 +54,5 @@ In the most recent session, participants will have created two branches:
     * The other instructor should quickly approve the pull request.
 * Show the conversation, commit, and files changed tabs while waiting for the review.
 * Merge the pull request into the `main` branch.
-* Instruct trainees to delete the `add-renv` branch after merging.
-* Instruct trainees to pull the changes from the `main` branch into their local repository.
+* Instruct participants to delete the `add-renv` branch after merging.
+* Instruct participants to pull the changes from the `main` branch into their local repository.
