@@ -32,6 +32,7 @@ nav_title: Schedule
 | Time | Topic | Instructor|
 |------|-------|-----------|
 | 9:00 - 9:30 | Pull request basics | Jaclyn |
+| | Slides: [Pull request basics (PDF)](slides/09_pull-requests-basics.pdf) | |
 | 9:30 - 10:00 | Resolving merge conflicts | Josh |
 | 10:00 - 10:30 | Git workflows | Jaclyn |
 | 10:30 - 10:45 | _Break_ | |
