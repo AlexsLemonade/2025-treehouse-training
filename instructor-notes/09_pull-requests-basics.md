@@ -1,0 +1,56 @@
+# Instructor Notes: Pull Requests Basics
+
+This document provides instructions for teaching how to create a pull request and merge it into the main branch.
+This is a follow-up to the previous instructor notes on working with branches, and it assumes that the trainees have already created and pushed their feature branches.
+
+## Learning goals
+
+At the end of this activity, workshop attendees should be able to:
+
+* Understand the concept of pull requests and why we use them
+* Understand why small, focused pull requests are better than large ones
+* Create a pull request from a feature branch to the main branch
+* Merge a pull request into the main branch
+
+## Before demonstration
+
+Before the live demo, slides will introduce the following concepts:
+
+* Pull requests as a way to propose changes to a repository
+* Briefly explain what code review is
+* The value of small, focused pull requests
+
+In the most recent session, participants will have created two branches:
+
+* `add-renv` branch, which contains:
+  * `renv.lock`
+  * `renv`-created support files
+* `add-fastp` branch, which contains:
+  * `environment.yml`
+  * modified `download-fastq.sh` script
+
+## Activity
+
+### Altering `download-fastq.sh`
+
+* Checkout the `add-renv` branch locally.
+* We will make a small change to `download-fastq.sh` to skip downloading the `fastq` files if they already exist.
+    * Check if files exist using the `-e` flag as outlined in [`solutions/fileexists_download-fastq.sh`](solutions/fileexists_download-fastq.sh).
+    This sets us up to have a merge conflict with the `add-fastp` branch in the next session.
+* Commit the change to the `add-renv` branch.
+* Push the changes to the remote `add-renv` branch.
+* Instruct trainees to navigate to their remote repositories in the browser to see their new commit pushed.
+  * Point out the banner that says changes were recently pushed to the `add-renv` branch.
+
+### Creating a pull request
+
+* Instruct trainees to create a pull request from the `add-renv` branch to the `main` branch.
+* In the pull request description, ask trainees to include a brief summary of the changes made in the `add-renv` branch.
+    * Make sure to reference the issue number for the `renv` addition.
+* Point out that merging is blocked in the repository the instructor is using because the `main` branch is protected.
+* Navigate to the repository settings and show how branch protection rules are set up.
+* Request a review from the other instructor.
+    * The other instructor should quickly approve the pull request.
+* Merge the pull request into the `main` branch.
+* Instruct trainees to delete the `add-renv` branch after merging.
+* Instruct trainees to pull the changes from the `main` branch into their local repository.
