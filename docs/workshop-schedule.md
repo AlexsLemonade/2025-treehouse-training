@@ -10,6 +10,7 @@ nav_title: Schedule
 | 9:00 - 9:45 | Welcome and introduction | Jaclyn |
 | | Slides: [Workshop introduction (PDF)](slides/00_workshop-introduction.pdf) | |
 |  | Why does reproducibility matter? | Jaclyn |
+| | Slides: [Why does reproducibility matter? (PDF)](slides/01_intro-motivation.pdf) | |
 | 9:45 - 10:30 | Project organization | Josh |
 | | Slides: [Project organization (PDF)](slides/02_project-organization.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
@@ -34,9 +35,12 @@ nav_title: Schedule
 | 9:00 - 9:30 | Pull request basics | Jaclyn |
 | 9:30 - 10:00 | Resolving merge conflicts | Josh |
 | 10:00 - 10:30 | Git workflows | Jaclyn |
+| | Slides: [Git workflows (PDF)](slides/11_git-workflows.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
 | 10:45 - 11:30 | Planning and tracking work with GitHub | Jaclyn |
+| | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
 | 11:30 - 12:15 | Analytical code review | Jaclyn |
+| | Slides: [Analytical code review (PDF)](slides/13_analytical-code-review.pdf) | |
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Leaving and responding to review | Josh |
 | 1:45 - 2:30 | **Optional:** Whose job is it anyway? Pull request responsibilities | Jaclyn |
