@@ -45,14 +45,18 @@ In the most recent session, participants will have created two branches:
 ### Creating a pull request
 
 * Instruct participants to create a pull request from the `add-renv` branch to the `main` branch.
+    * They will merging their own pull request without requesting a reviewer.
 * Scroll down to show the files changed.
+* In the pull request title, ask participants to describe the changes in `add-renv` branch at a high-level.
 * In the pull request description, ask participants to include a brief summary of the changes made in the `add-renv` branch.
     * Make sure to reference the issue number for the `renv` addition.
 * Point out that merging is blocked in the repository the instructor is using because the `main` branch is protected.
 * Navigate to the repository settings and show how branch protection rules are set up.
+  * Stress that protecting the `main` branch when working in their own repositories is not practical, and that participants should not follow along in setting this up in their fork.
 * Request a review from the other instructor's GitHub account (you may be requesting your own account depending on computer setup).
     * The other instructor should quickly approve the pull request (which may be you on a second device, such as an iPad or phone).
 * Show the conversation, commit, and files changed tabs while waiting for the review.
 * Merge the pull request into the `main` branch.
+    * Instruct participants to merge their pull request into their own `main` branch without review.
 * Instruct participants to delete the `add-renv` branch after merging.
 * Instruct participants to pull the changes from the `main` branch into their local repository.
