@@ -35,13 +35,14 @@ nav_title: Schedule
 | 9:00 - 9:30 | Pull request basics | Jaclyn |
 | | Slides: [Pull request basics (PDF)](slides/08_pull-request-basics.pdf) | |
 | 9:30 - 10:00 | Resolving merge conflicts | Josh |
+| | Slides: [Resolving merge conflicts (PDF)](slides/09_merge-conflicts.pdf) | |
 | 10:00 - 10:45 | Leaving and responding to review | Josh |
-| 10:45 - 11:00 | _Break_ | |
-| 11:00 - 11:30 | Git workflows | Jaclyn |
+| 10:45 - 10:45 | _Break_ | |
+| 10:45 - 11:15 | Git workflows | Jaclyn |
 | | Slides: [Git workflows (PDF)](slides/11_git-workflows.pdf) | |
-| 11:30 - 12:15 | Planning and tracking work with GitHub | Jaclyn |
+| 11:15 - 12:00 | Planning and tracking work with GitHub | Jaclyn |
 | | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
-| 12:15 - 1:00 | _Lunch_ | |
+| 12:00 - :00 | _Lunch_ | |
 | 1:00 - 1:45 | Analytical code review | Jaclyn |
 | | Slides: [Analytical code review (PDF)](slides/13_analytical-code-review.pdf) | |
 | 1:45 - 2:30 | **Optional:** Whose job is it anyway? Pull request responsibilities | Jaclyn |
