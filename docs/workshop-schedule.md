@@ -35,6 +35,7 @@ nav_title: Schedule
 | 9:00 - 9:30 | Pull request basics | Jaclyn |
 | | Slides: [Pull request basics (PDF)](slides/08_pull-request-basics.pdf) | |
 | 9:30 - 10:00 | Resolving merge conflicts | Josh |
+| | Slides: [Resolving merge conflicts (PDF)](slides/09_merge-conflicts.pdf) | |
 | 10:00 - 10:45 | Leaving and responding to review | Josh |
 | 10:45 - 11:00 | _Break_ | |
 | 11:00 - 11:30 | Git workflows | Jaclyn |
