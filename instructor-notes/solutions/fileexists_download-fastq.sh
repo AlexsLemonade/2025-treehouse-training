@@ -12,9 +12,12 @@ FASTQ_R1="SRR11518889_1.fastq.gz"
 FASTQ_R2="SRR11518889_2.fastq.gz"
 FASTQ_URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR115/089/SRR11518889"
 
-# Define and create destination directory for FASTQ files to live in
-FASTQ_DEST="../data/raw/fastq/${STUDY_ID}/"
-mkdir -p $FASTQ_DEST
+# Define and create destination directories for FASTQ files to live in
+FASTQ_DEST="../data/raw/fastq/${STUDY_ID}"
+TRIMMED_DIR="../data/trimmed/${STUDY_ID}"
+REPORTS_DIR="../reports/fastp"
+
+mkdir -p $FASTQ_DEST $TRIMMED_DIR $REPORTS_DIR
 
 ##### Process the R1 file #####
 
@@ -55,9 +58,18 @@ if [ ! -e "$FASTQ_DEST/$FASTQ_R2" ]; then
 fi
 
 # Explore: how many lines are in the file?
+echo "The number of lines in $FASTQ_R2 is:"
 gunzip -c $FASTQ_DEST/$FASTQ_R2 | wc -l
 
 
+## Trim the files with fastp
+fastp \
+  --in1 $FASTQ_DEST/$FASTQ_R1 \
+  --in2 $FASTQ_DEST/$FASTQ_R2 \
+  --out1 $TRIMMED_DIR/$FASTQ_R1 \
+  --out2 $TRIMMED_DIR/$FASTQ_R2 \
+  --html "$REPORTS_DIR/${STUDY_ID}_report.html" \
+  --json "$REPORTS_DIR/${STUDY_ID}_report.json"
 
 
 
