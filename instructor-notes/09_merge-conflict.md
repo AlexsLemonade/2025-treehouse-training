@@ -4,7 +4,7 @@
 ## Before demonstration
 
 When we get to this point, the `add-renv` branch has been merged into `main` (and probably deleted).
-This should have included a change in teh `download-files.sh` script to check if the fastq files already exist before downloading them.
+This should have included a change in the `download-files.sh` script to check if the fastq files already exist before downloading them.
 The `add-fastp` branch has changes to `download-files.sh` and `environment.yml`.
 
 Repeat that is good practice to merge the base branch into your feature branch before filing a PR.
