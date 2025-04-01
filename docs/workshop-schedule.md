@@ -10,6 +10,7 @@ nav_title: Schedule
 | 9:00 - 9:45 | Welcome and introduction | Jaclyn |
 | | Slides: [Workshop introduction (PDF)](slides/00_workshop-introduction.pdf) | |
 |  | Why does reproducibility matter? | Jaclyn |
+| | Slides: [Why does reproducibility matter? (PDF)](slides/01_intro-motivation.pdf) | |
 | 9:45 - 10:30 | Project organization | Josh |
 | | Slides: [Project organization (PDF)](slides/02_project-organization.pdf) | |
 | 10:30 - 10:45 | _Break_ | |
