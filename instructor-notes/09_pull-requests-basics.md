@@ -50,8 +50,8 @@ In the most recent session, participants will have created two branches:
     * Make sure to reference the issue number for the `renv` addition.
 * Point out that merging is blocked in the repository the instructor is using because the `main` branch is protected.
 * Navigate to the repository settings and show how branch protection rules are set up.
-* Request a review from the other instructor.
-    * The other instructor should quickly approve the pull request.
+* Request a review from the other instructor's GitHub account (you may be requesting your own account depending on computer setup).
+    * The other instructor should quickly approve the pull request (which may be you on a second device, such as an iPad or phone).
 * Show the conversation, commit, and files changed tabs while waiting for the review.
 * Merge the pull request into the `main` branch.
 * Instruct participants to delete the `add-renv` branch after merging.
