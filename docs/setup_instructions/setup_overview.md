@@ -7,7 +7,7 @@ This will be a hands-on workshop, so to maximize our time, we would like you to 
 
 We will _not_ have time to do all of the setup on the days of the workshop and accomplish all of our goals for the workshop!
 Please be aware this setup process may take 1-2 hours to complete if you are using Windows, and somewhat less on a Mac.
-You may be able to skip some of the steps below if you already have R, RStudio, and Git installed.
+If you already have R, RStudio, conda, and Git installed, you may be able to skip some of the steps below.
 
 ## Workshop software requirements
 
