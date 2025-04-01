@@ -39,6 +39,7 @@ nav_title: Schedule
 | 10:45 - 11:30 | Planning and tracking work with GitHub | Jaclyn |
 | | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
 | 11:30 - 12:15 | Analytical code review | Jaclyn |
+| | Slides: [Analytical code review (PDF)](slides/13_analytical-code-review.pdf) | |
 | 12:15 - 1:00 | _Lunch_ | |
 | 1:00 - 1:45 | Leaving and responding to review | Josh |
 | 1:45 - 2:30 | **Optional:** Whose job is it anyway? Pull request responsibilities | Jaclyn |
