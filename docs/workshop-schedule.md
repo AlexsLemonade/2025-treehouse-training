@@ -49,5 +49,6 @@ nav_title: Schedule
 | 1:45 - 2:30 | **Optional:** Whose job is it anyway? Pull request responsibilities | Jaclyn |
 | 2:30 - 2:45 | _Break_ | |
 | 2:45 - 3:30 | **Optional:** Pull request scope | Josh |
+| | Slides: [Pull request scope (PDF)](slides/15_pull-request-scope.pdf) | |
 | 3:30 - 5:00 | **Optional:** Open office hours | Jaclyn and Josh |
 | 5:00 | Adjourn | |
