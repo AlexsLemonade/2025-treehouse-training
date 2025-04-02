@@ -16,7 +16,9 @@ It will also contain a `prefix:` line, which is not needed and includes a hard-c
   * Show the Files Changed tab, different views of diffs, and hiding files you have already reviewed to reduce clutter
   * Show views of individual commits, and note that commit messages are helpful for review
 * Begin reviewing within GitHub, leaving the following comments for review:
-  * Line level comment (download-fastq.sh): suggest adding an explicit output file for the JSON report from `fastp` (don't forget to include a trailing `\` on the previous line):
+  * Line level comment (download-fastq.sh): suggest adding an explicit output file for the JSON report from `fastp`.
+    * Without the report specified, `fastp` will by default create a `fastp.json` report in the current working directory, which may not be where the user expects it to be.
+    * Suggest adding the following argument to the `fastp` command (don't forget to add the `\` line continuation character on the previous line):
     ```
     --json "$REPORTS_DIR/${STUDY_ID}_report.json"
     ```
