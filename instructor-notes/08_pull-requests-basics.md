@@ -50,6 +50,7 @@ In the most recent session, participants will have created two branches:
 * In the pull request title, ask participants to describe the changes in `add-renv` branch at a high-level.
 * In the pull request description, ask participants to include a brief summary of the changes made in the `add-renv` branch.
     * Make sure to reference the issue number for the `renv` addition.
+    * Note that, by default, participants' forks will not have issues enabled, so their repository will look different from the one in the demo.
 * Point out that merging is blocked in the repository the instructor is using because the `main` branch is protected.
 * Navigate to the repository settings and show how branch protection rules are set up.
   * Stress that protecting the `main` branch when working in their own repositories is not practical, and that participants should not follow along in setting this up in their fork.
