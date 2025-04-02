@@ -1,9 +1,12 @@
-# `git` basics live demonstration
+# PR review live demonstration
 
 
 ## Before demonstration
 
-Before the live demo, the co-instructor (i.e., instructor who is _not_ leading the demo) will have opened a pull request that modifies and re-renders an existing notebook [`explore-spotify-variation.Rmd`](https://github.com/AlexsLemonade/2023-chop-training-demo/blob/5ea683d571d89ceb19572359dd9c633f6f247987/scripts/explore-spotify-variation.Rmd).
+Before the live demo, the co-instructor (i.e., instructor who is _not_ leading the demo) will have opened a pull request that adds `fastp` processing to the `download-fastq.sh` script and adds a conda environment file.
+
+Importantly, the `environment.yml` file will contain build numbers, as it will have been created with `conda env export > environment.yml`.
+It will also contain a `prefix:` line, which is not needed and includes a hard-coded path.
 
 
 ## Live demonstration
@@ -12,19 +15,19 @@ Before the live demo, the co-instructor (i.e., instructor who is _not_ leading t
   * Read through the PR, which links the issue, and discuss how a well-crafted PR can support review
   * Show the Files Changed tab, different views of diffs, and hiding files you have already reviewed to reduce clutter
   * Show views of individual commits, and note that commit messages are helpful for review
-* Begin reviewing within GitHub, leaving the following _in-line_ comments for review:
-  * In-line comment (not a suggestion)
-    * Need to add a `sessionInfo()` chunk
-  * In-line suggestions
-    * Need to set a seed
-    * Need to set appropriate `ggplot` theme for the UMAP (no axis ticks, labels)
-  * File-level comment
-    * Need to include more markdown text contextualizing code chunks.
-    This could additionally be included in the overall review comment as a major point to address.
-* Check out branch locally to run the code, during which package management problems are caught:
-  * `{umap}` was not loaded into environment
-  * `{patchwork}` was used, but the reviewer does not have the package installed
+* Begin reviewing within GitHub, leaving the following comments for review:
+  * Line level comment (download-fastq.sh): suggest adding an explicit output file for the JSON report from `fastp`.
+    * Without the report specified, `fastp` will by default create a `fastp.json` report in the current working directory, which may not be where the user expects it to be.
+    * Suggest adding the following argument to the `fastp` command (don't forget to add the `\` line continuation character on the previous line):
+    ```
+    --json "$REPORTS_DIR/${STUDY_ID}_report.json"
+    ```
+  * File-level comment (environment.yml): The `environment.yml` file should not include build numbers, as this can cause problems with reproducibility
+    * Suggest using `conda env export --no-builds > environment.yml` instead
+  * Line level comment (environment.yml): suggest removing the `prefix:` line from the `environment.yml` file, as it is not needed and includes a hard-coded path
 * Leave overall review starting with some form of "Thanks for doing this!"
-  * Overall review should include comment that `{umap}` package needs to be in the environment, either via `library()` or using `::`
-  * Also suggest that author should open up a separate issue to use `{renv}` in the project to ensure environment consistency given that reviewer did not have `{patchwork}` dependency
+  * Include the following overall comments:
+    * Note that the usage of the `environment.yml` file is not described in the README for the repo.
+    * Suggest adding a section to the README that describes how to set up the conda and renv environments.
+    * Note that this could be done in a separate PR, but the issue should be filed before finishing this PR.
 * Publish review as "Comment," but discuss consequences if "Request changes" were used instead.

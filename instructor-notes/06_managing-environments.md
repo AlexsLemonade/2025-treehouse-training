@@ -67,8 +67,7 @@ fastp \
   --in2 $FASTQ_DEST/$FASTQ_R2 \
   --out1 $TRIMMED_DIR/$FASTQ_R1 \
   --out2 $TRIMMED_DIR/$FASTQ_R2 \
-  --html "$REPORTS_DIR/${STUDY_ID}_report.html" \
-  --json "$REPORTS_DIR/${STUDY_ID}_report.json"
+  --html "$REPORTS_DIR/${STUDY_ID}_report.html"
 ```
 
 * Run the script to ensure that it works (and doesn't re-download the files).
