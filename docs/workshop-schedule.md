@@ -22,7 +22,7 @@ nav_title: Schedule
 |	| Slides: [Shell scripting (PDF)](slides/03_shell-scripting.pdf) | |
 | 11:15 - 12:15 | Git, Part 1 | Jaclyn |
 | | Slides: [Git, Part 1 (PDF)](slides/04_git-part-1.pdf) | |
-| 12:15 - 1:00 | _Lunch_ | |
+| 12:15 - 1:00 | _Lunch_ (Provided)| |
 | 1:00 - 1:45 | Organizing code in scripts and notebooks | Josh |
 | 1:45 - 2:30 | Managing packages and environments | Josh |
 | | Slides: [Managing packages and environments (PDF)](slides/06_managing-packages-environments.pdf) | |
@@ -53,7 +53,7 @@ _Note:_ Some sessions are optional and may not be recorded.
 | | Slides: [Git workflows (PDF)](slides/11_git-workflows.pdf) | |
 | 11:30 - 12:15 | Planning and tracking work with GitHub | Jaclyn |
 | | Slides: [Planning and tracking work with GitHub (PDF)](slides/12_planning-tracking.pdf) | |
-| 12:15 - 1:00 | _Lunch_ | |
+| 12:15 - 1:00 | _Lunch_ (Provided) | |
 | 1:00 - 1:45 | Analytical code review | Jaclyn |
 | | Slides: [Analytical code review (PDF)](slides/13_analytical-code-review.pdf) | |
 | 1:45 - 2:30 | **Optional:** Whose job is it anyway? Pull request responsibilities | Jaclyn |
