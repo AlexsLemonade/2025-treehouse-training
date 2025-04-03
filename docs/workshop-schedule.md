@@ -5,6 +5,10 @@ nav_title: Schedule
 
 ## Day 1: April 8, 2025
 
+**In Person:** WRP-GI-A273-DTEN-01 ("A273")
+
+**Virtual:** See your email for Zoom link.
+
 | Time | Topic | Instructor|
 |------|-------|-----------|
 | 9:00 - 9:45 | Welcome and introduction | Jaclyn |
@@ -29,6 +33,12 @@ nav_title: Schedule
 | 5:00 | Adjourn | |
 
 ## Day 2: April 10, 2025
+
+**In Person:** WRP-GI-B279-DTEN-01 ("Double Helix")
+
+**Virtual:** See your email for Zoom link.
+
+_Note:_ Some sessions are optional and may not be recorded.
 
 | Time | Topic | Instructor|
 |------|-------|-----------|
