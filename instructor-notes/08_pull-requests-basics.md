@@ -61,6 +61,7 @@ In the most recent session, participants will have created two branches:
     * Require 1 approval
   * Block force pushes
 * Hit "Create" to create the branch protection ruleset.
+* Show how to edit the ruleset by clicking Rulesets under Rules, and then the ruleset name.
 
 ### Creating a pull request
 
