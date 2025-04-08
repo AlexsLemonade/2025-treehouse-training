@@ -24,6 +24,7 @@ nav_title: Schedule
 | | Slides: [Git, Part 1 (PDF)](slides/04_git-part-1.pdf) | |
 | 12:15 - 1:00 | _Lunch_ (Provided)| |
 | 1:00 - 1:45 | Organizing code in scripts and notebooks | Josh |
+| | Slides: [Organizing code (PDF)](slides/05_organizing-code.pdf) | |
 | 1:45 - 2:30 | Managing packages and environments | Josh |
 | | Slides: [Managing packages and environments (PDF)](slides/06_managing-packages-environments.pdf) | |
 | 2:30 - 2:45 | _Break_ | |
